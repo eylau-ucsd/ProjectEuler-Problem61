@@ -5,6 +5,13 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import problem61.Figurates.Heptagon;
+import problem61.Figurates.Hexagon;
+import problem61.Figurates.Octagon;
+import problem61.Figurates.Pentagon;
+import problem61.Figurates.Square;
+import problem61.Figurates.Triangle;
+
 public class Solution {
     public static void main(String[] args) {
         Set<Figurate> figurates = new HashSet<Figurate>();

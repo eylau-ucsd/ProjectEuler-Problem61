@@ -1,5 +1,7 @@
 package problem61;
 
+import problem61.Figurates.Pentagon;
+
 public class Test {
     public static void main(String[] args) {
         NumberSequence numSeq = new NumberSequence(28, new Pentagon());

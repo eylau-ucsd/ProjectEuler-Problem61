@@ -1,4 +1,6 @@
-package problem61;
+package problem61.Figurates;
+
+import problem61.Figurate;
 
 public class Square extends Figurate {
     @Override
