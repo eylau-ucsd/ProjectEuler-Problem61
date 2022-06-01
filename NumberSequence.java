@@ -46,7 +46,7 @@ public class NumberSequence implements Iterable<Integer> {
         }
 
         public boolean hasNext() {
-            return (get(x) < nUpperBoundExclusive);
+            return (x < xUpperBoundExclusive);
         }
 
         public Integer next() {
